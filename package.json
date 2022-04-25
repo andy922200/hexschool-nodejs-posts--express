@@ -1,7 +1,7 @@
 {
-  "name": "hexschool-nodejs-posts",
+  "name": "hexschool-nodejs-posts-express",
   "version": "1.0.1",
-  "description": "hexschool-nodejs-posts",
+  "description": "hexschool-nodejs-posts-express",
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js",
