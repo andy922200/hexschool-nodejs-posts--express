@@ -1,6 +1,6 @@
 {
   "name": "hexschool-nodejs-posts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "hexschool-nodejs-posts",
   "main": "server.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "dotenv": "^16.0.0",
     "mongoose": "^6.3.0"
   },
-  "engines":{
+  "engines": {
     "node": "14.x"
   }
 }
