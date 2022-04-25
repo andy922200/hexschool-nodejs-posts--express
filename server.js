@@ -15,7 +15,7 @@ const dbName = "socialNetwork"
 const localUrl = `mongodb://localhost:${mongoDbLocalPort}/${dbName}`
 const remoteUrl = `mongodb+srv://${process.env.account}:${process.env.password}@cluster0.5mk4u.mongodb.net/${dbName}?retryWrites=true&w=majority`
 const dbUrl = process.env.dbRemote ? remoteUrl : localUrl
-console.log('dburl', dbUrl)
+
 mongoose
     .connect(dbUrl)
     .then(() => console.log('資料庫連接成功'))
